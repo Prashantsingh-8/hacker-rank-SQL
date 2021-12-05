@@ -13,7 +13,6 @@ Given a City table, whose fields are described as
 +-------------+----------+
 you have to print all the details of all the cities of Japan. The CountryCode for Japan is "JPN".
 */
-
 sol:-
 
 SELECT * FROM City WHERE CountryCode="JPN";
