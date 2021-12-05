@@ -16,5 +16,5 @@ Write a query to print the sum of LAT_N and LONG_W up to 2 decimal places separa
 
 sol:-
 
-SELECT CAST(SUM(LAT_N) AS NUMERIC(36,2)), CAST(SUM(LONG_W) AS NUMERIC(36,2))
-FROM STATION;
+select round(sum(lat_n), 2), round(sum(long_w), 2) 
+from station;
