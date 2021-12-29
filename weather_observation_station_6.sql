@@ -14,6 +14,8 @@ Given a table STATION that holds data for five fields namely ID, CITY, STATE, NO
 Write a query to print the list of CITY that start with vowels in lexicographical order. Do not print duplicates.
 */
 
+
+
 sol:-
 
 SELECT CITY
