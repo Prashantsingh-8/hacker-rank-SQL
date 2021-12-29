@@ -1,3 +1,5 @@
+SOL :-
+
 SELECT SUBMISSION_DATE,
        (SELECT Count(DISTINCT hacker_id) as no_of_unique_hacker_id FROM submissions S2
         WHERE  S2.submission_date = S1.submission_date
